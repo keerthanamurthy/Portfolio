@@ -1,0 +1,92 @@
+.softskills h3{
+    font-weight:400;
+    letter-spacing: 1px;
+    margin-top:4px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  .progressbar{
+    background: rgb(23, 23, 23);
+    width:600px;
+    height:10px;
+    border-radius: 5px;
+  }
+  .progressbar div{
+    height:10px;
+    border-radius: 5px;
+    width:0%;
+  }
+  .progressbar div span{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background:black;
+    float:right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .c{
+    background-color: rgb(196, 66, 196);
+    animation: c 1s linear forwards;
+  }
+  .cpp{
+    background-color: yellow;
+    animation: cpp 1s linear forwards;
+  }
+  .html{
+    background-color: skyblue;
+    animation: html 1s linear forwards;
+  }
+  .css{
+    background-color:darkorange;
+    animation: css 1s linear forwards;
+  }
+  .js{
+    background-color:chartreuse;
+    animation: js 1s linear forwards;
+  }
+  .c span{
+    border:1px solid rgb(196, 66, 196)
+  }
+  .cpp span{
+    border:1px solid yellow
+  }
+  .html span{
+    border:1px solid skyblue
+  }
+  .css span{
+    border:1px solid darkorange
+  }
+  .js span{
+    border:1px solid chartreuse
+  }
+  @keyframes c{
+    100%{
+      width:90%;
+    }
+  }
+  
+  @keyframes cpp{
+    100%{
+      width:85%;
+    }
+  }
+  @keyframes html{
+    100%{
+      width:80%;
+    }
+  }
+  @keyframes css{
+    100%{
+      width:80%;
+    }
+  }
+  @keyframes js{
+    100%{
+      width:60%;
+    }
+  }

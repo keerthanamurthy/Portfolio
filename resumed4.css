@@ -1,0 +1,30 @@
+h3{
+    background-color: rgb(250, 213, 167);
+    width: 300px;
+    padding:2px 5px 2px 1px;
+}
+img {
+    align-items: center;
+  }
+
+body{
+    display:flex;
+    flex-direction:column;
+    width: auto;
+}
+
+ 
+.f2{
+    display: block;
+    flex-direction: row;
+    justify-content: right;
+    width:60px;
+}
+table{
+    display: inline-table;
+    flex-direction: column;
+    justify-content: center;
+}
+.f5{
+    height: 500px;
+}

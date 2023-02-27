@@ -1,0 +1,23 @@
+body{
+    background-color: aliceblue;
+}
+.f1{
+    background-color: aqua;
+    display: flex;
+    width: 500px;
+    height:500px;
+    align-items: center;
+    justify-content: space-between;
+}
+.f1>div{
+    background-color: rgb(246, 244, 244);
+    
+    border-radius: 25%;
+    display: flex;
+    width:200px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+
+
+}
